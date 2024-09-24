@@ -47,21 +47,23 @@ The algorithm flowchart:
 
 
 ## Experimental Results
-we considered a mapping function $f:\mathbb{R}^2\rightarrow \mathbb{R}$ given by $ f(\textbf{x}=[x_1,x_2]^\top)=10\sin(2x_1)+(x_2-2)^2+15$. This function was investigated for the interval $(-1, 5)$ and the following Figure illustrates the derived bounds for the base regression model (blue), smoothed regression model (red), and discounted smoothed model (black and green) in integer points of the defined domain.
+We considered a mapping function $f:\mathbb{R}^2\rightarrow \mathbb{R}$ given by $f(\textbf{x})=10\sin(2x_1)+2(x_2-2)^3$. This function was investigated for the interval $(-1, 5)$ with $P=0.8$, $\sigma=0.15$, $\epsilon_y=6$ using $\ell_1$ norm, $n=10,000$ at two different rates of $\alpha=0.35$ and $\alpha=0.49$. The following Figure illustrates the derived bounds for the base regression model (blue), smoothed regression model (green and red).
 
-![image](https://github.com/arekavandi/Certified_Robust_Regression/assets/101369948/ed6ba9fe-036f-43a6-87b3-d9788442f19b)
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/1e93214c-a16c-49d8-83d7-96bd1eab53f3">
 
 
-For more experiments on a real application (camera pose estimation), download the paper and read the experimental results section as well as Appendix E. 
+For real data and camera positionig task, the input asversarial bound on the norm for Great Court scene has been demonstrated below for each taken images as a point in the 3D scene. Brighter points show more robust pose estimation of the images.
+
+<img width="612" alt="image" src="https://github.com/user-attachments/assets/b4f5541e-a622-477b-87fa-a1a17dc0736c">
+
 
 # Citations
 If you found this GitHub page helpful, please cite the following papers:
 ```
-@article{rekavandi2024rs,
-  title={RS-Reg: Probabilistic and Robust Certified Regression Through Randomized Smoothing},
-  author={Rekavandi, Aref Miri and Ohrimenko, Olga and Rubinstein, Benjamin IP},
-  journal={arXiv preprint arXiv:2405.08892},
+@article{rekavandi2024certified,
+  title={Certified Adversarial Robustness via Randomized $\alpha$-Smoothing for Regression Models},
+  author={Miri Rekavandi, Aref and Farokhi, Farhad and Ohrimenko, Olga and Rubinstein, Benjamin IP},
+  journal={Advances in Neural Information Processing Systems},
   year={2024}
-}
 }
 ```
