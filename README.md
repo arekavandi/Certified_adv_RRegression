@@ -1,7 +1,7 @@
 # Certified Adversarial Robustness via Randomized $\alpha$-Smoothing for Regression Models
 
 ## Overview
-This GitHub repository was established to present the results of certification of regression models against adversarial attack (Lp-Attack) using randomized smoothing and $\alpha-$trimming filter. While randomized smoothing has been greatly developed for classification tasks, its potential for regression tasks has not been explored. In this work, we show how the maximum adversarial perturbation of the input data can be derived for the base regression model, and then we show how a similar certificate can be extracted for the averaging function as a basic smoothing. 
+This GitHub repository was established to present the results of certification of regression models against adversarial attack (Lp-Attack) using randomized smoothing and $\alpha$-trimming filter. While randomized smoothing has been greatly developed for classification tasks, its potential for regression tasks has not been explored. In this work, we show how the maximum adversarial perturbation of the input data can be derived for the base regression model, and then we show how a similar certificate can be extracted for the averaging function as a basic smoothing. 
 
 This repository contains a Jupyter Notebook file for figures presented in the paper for a synthetic mapping function.  It also contains a Python script for the certification of camera-relocation task using RGB images using the code and model provided in [DSAC*](https://github.com/vislearn/dsacstar) repository.
 
