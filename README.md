@@ -1,9 +1,9 @@
 # Certified Adversarial Robustness via Randomized $\alpha$-Smoothing for Regression Models
 
 ## Overview
-This GitHub repository was established to present the results of certification of regression models against adversarial attack (Lp-Attack) using randomized smoothing and $\alpha$-trimming filter. While randomized smoothing has been greatly developed for classification tasks, its potential for regression tasks has not been explored. In this work, we show how the maximum adversarial perturbation of the input data can be derived for the base regression model, and then we show how a similar certificate can be extracted for the averaging function as a basic smoothing. 
+This GitHub repository was established to present the results of certification of regression models against adversarial attack (Lp-Attack) using randomized smoothing and $\alpha$-trimming filter. Following the results/analyses in [RS-Reg]([https://github.com/vislearn/dsacstar](https://github.com/arekavandi/Certified_Robust_Regression)), in this work, we show how the maximum adversarial perturbation of the input data can be derived for the base regression model, and then we show how a similar certificate can be extracted for the robust smoothing function adopted from the robust statistic literature, i.e., $\alpha$-trimming filter. We derive the minimum required trimming rate that is requiered to enhance the certification of the base model in the worst case performance setup.
 
-This repository contains a Jupyter Notebook file for figures presented in the paper for a synthetic mapping function.  It also contains a Python script for the certification of camera-relocation task using RGB images using the code and model provided in [DSAC*](https://github.com/vislearn/dsacstar) repository.
+This repository contains a Jupyter Notebook file for figures presented in the paper for a synthetic function as well as a Python script for the certification of camera re-localization task using RGB images using the code and model provided in [DSAC*](https://github.com/vislearn/dsacstar) repository.
 
 We included all the files/models/datasets required to run the project and there is no need to download external files. 
 
