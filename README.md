@@ -41,6 +41,9 @@ We aim to find the upper bound on the input perturbation (w.r.t. Lp norm) such t
 
 <img width="962" alt="image" src="https://github.com/user-attachments/assets/d97c7548-ab4b-46ee-8b70-713fac465491">
 
+The algorithm flowchart:
+
+<img width="962" alt="image" src="https://github.com/user-attachments/assets/148591cb-0c24-4ad9-a26b-173e4562a9d8">
 
 
 ## Experimental Results
