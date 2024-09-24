@@ -37,9 +37,10 @@ For running the camera re-localization code, please go to the `dsactstar/` direc
 python test_certificate.py Cambridge_GreatCourt newmodels\rgb\cambridge\Cambridge_GreatCourt.net
 ```
 ## Main Idea
-We aim to find the upper bound on the input perturbation (w.r.t. a norm) such that the output values of a regression model stay  with probability P within the accepted region defined by the user (see the below Figure).
+We aim to find the upper bound on the input perturbation (w.r.t. Lp norm) such that the output values of a regression model stay  with probability P within the accepted region defined by the user (see the below Figure).
 
-![image](https://github.com/arekavandi/Certified_Robust_Regression/assets/101369948/78d5cfce-5ba4-4343-924c-e2253fcaef20)
+<img width="962" alt="image" src="https://github.com/user-attachments/assets/d97c7548-ab4b-46ee-8b70-713fac465491">
+
 
 
 ## Experimental Results
