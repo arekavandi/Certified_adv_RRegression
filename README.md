@@ -47,7 +47,7 @@ The algorithm flowchart:
 
 
 ## Experimental Results
-We considered a mapping function $f:\mathbb{R}^2\rightarrow \mathbb{R}$ given by $f(\textbf{x})=10\sin(2x_1)+2(x_2-2)^3$. This function was investigated for the interval $(-1, 5)$ with $P=0.8$, $\sigma=0.15$, $\epsilon_y=6$ using $\ell_1$ norm, $n=10,000$ at two different rates of $\alpha=0.35$ and $\alpha=0.49$. The following Figure illustrates the derived bounds for the base regression model (blue), smoothed regression model (green and red).
+We considered a mapping function $f:\mathbb{R}^2\rightarrow \mathbb{R}$ given by $f(\textbf{x})=10\sin(2x_1)+2(x_2-2)^3$. This function was investigated for the interval $(-1, 5)$ with $P=0.8$, $\sigma=0.15$, $\epsilon_y=6$ using $\ell_1$ norm, $n=10,000$ at two different rates of $\alpha=0.35$ and $\alpha=0.49$. The following Figure illustrates the derived bounds for the base regression model (blue) and smoothed regression model (green and red).
 
 <img width="926" alt="image" src="https://github.com/user-attachments/assets/1e93214c-a16c-49d8-83d7-96bd1eab53f3">
 
