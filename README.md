@@ -33,8 +33,12 @@ The repository is organized as follows:
 For extracting figures of synthetic function, please go to the `notebook/` directory, open `synthetic.ipynb` file, and run all the cells.
 
 For running the camera re-localization code, please go to the `dsactstar/` directory in Anaconda Prompt and run:
- ```
-python test_certificate.py Cambridge_GreatCourt newmodels\rgb\cambridge\Cambridge_GreatCourt.net
+```
+python test_certificate.py <scene_name> <network_input_file> --n_tr <50-10K> --n_sample <10-1000> --alpha <0-0.5> --P <0-0.999> --n_test_image <10-max_test_image> --beta <0-2> --epsilon <0-infty> --K <0-infty>
+```
+As an example:
+```
+python test_certificate.py Cambridge_GreatCourt newmodels\rgb\cambridge\Cambridge_GreatCourt.net --n_tr 100 --alpha 0.35 --P 0.8 --n_test_image 760 --beta 0.5 --K 1.5 --epsilon 5
 ```
 ## Main Idea
 We aim to find the upper bound on the input perturbation (w.r.t. Lp norm) such that the output values of a regression model stay  with probability P within the accepted region defined by the user (see the below Figure).
