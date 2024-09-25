@@ -1,5 +1,5 @@
 ''' This code was developed by Aref Miri Rekavandi @2024 based on DSAC* repository, for the manuscript entitled 
-"Certified Adversarial Robustness via Randomized 𝛼− Smoothing for Large Scale Regression Models".
+"Certified Adversarial Robustness via Randomized 𝛼− Smoothing for Regression Models".
 If you used our code in your research, please cite the aforementioned work.
 '''
 import os
