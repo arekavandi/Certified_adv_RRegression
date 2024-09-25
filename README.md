@@ -38,7 +38,7 @@ python test_certificate.py <scene_name> <network_input_file> --n_tr <50-10K> --n
 ```
 As an example:
 ```
-python test_certificate.py Cambridge_GreatCourt newmodels\rgb\cambridge\Cambridge_GreatCourt.net --n_tr 100 --alpha 0.35 --P 0.8 --n_test_image 760 --beta 0.5 --K 1.5 --epsilon 5
+python test_certificate.py Cambridge_GreatCourt newmodels\rgb\cambridge\Cambridge_GreatCourt.net --n_tr 100 --n_sample 10 --alpha 0.35 --P 0.8 --n_test_image 760 --beta 0.5 --epsilon 5 --K 1.5 
 ```
 ## Main Idea
 We aim to find the upper bound on the input perturbation (w.r.t. Lp norm) such that the output values of a regression model stay  with probability P within the accepted region defined by the user (see the below Figure).
