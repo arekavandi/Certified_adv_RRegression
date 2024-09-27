@@ -1,7 +1,7 @@
 # Certified Adversarial Robustness via Randomized $\alpha$-Smoothing for Regression Models
 
 ## Overview
-This GitHub repository was made to present the results of certification of regression models against adversarial attack (Lp-Attack) using randomized smoothing and $\alpha$-trimming filter. Following the results/analyses in [RS-Reg](https://github.com/arekavandi/Certified_Robust_Regression), in this work, we show how the maximum adversarial perturbation of the input data can be derived for the base regression model, and then we show how a similar certificate can be extracted for the robust smoothing function adopted from the robust statistic literature, i.e., $\alpha$-trimming filter. We derive the minimum required trimming rate that is requiered to enhance the certification of the base model in the worst case performance setup.
+This GitHub repository was made to present the results of the certification of regression models against adversarial attack (Lp-Attack) using randomized smoothing and $\alpha$-trimming filter. Following the results/analyses in [RS-Reg](https://github.com/arekavandi/Certified_Robust_Regression), in this work, we show how the maximum adversarial perturbation of the input data can be derived for the base regression model, and then we show how a similar certificate can be extracted for the robust smoothing function adopted from the robust statistic literature, i.e., $\alpha$-trimming filter. We derive the minimum required trimming rate that is required to enhance the certification of the base model in the worst-case performance setup.
 
 This repository contains a Jupyter Notebook file for figures presented in the paper for a synthetic function as well as a Python script for the certification of camera re-localization task using RGB images using the code and model provided in [DSAC*](https://github.com/vislearn/dsacstar) repository.
 
@@ -20,13 +20,13 @@ To run the Camera re-localization pipeline, all the packages suggested in  [DSAC
 scipy (1.11.4)
 matplotlib (3.8.2)
 ```
-The repository contains an ```environment.yml``` for the use with Conda. Perform the following steps:
+The repository contains an ```environment.yml``` for use with Conda. Perform the following steps:
 
 1. Clone the repository:
 ```
 git clone https://github.com/arekavandi/Certified_adv_RRegression.git
 ```
-2. Go to the project folder and Make a new environment and install the required packages by
+2. Go to the project folder and make a new environment and install the required packages by
 ```
 conda env create -f environment.yml
 ```
