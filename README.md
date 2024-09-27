@@ -72,7 +72,7 @@ If you found this GitHub page helpful, please cite the following papers:
 }
 @article{rekavandi2024rs,
   title={RS-Reg: Probabilistic and Robust Certified Regression Through Randomized Smoothing},
-  author={Rekavandi, Aref Miri and Ohrimenko, Olga and Rubinstein, Benjamin IP},
+  author={Miri Rekavandi, Aref and Ohrimenko, Olga and Rubinstein, Benjamin IP},
   journal={arXiv preprint arXiv:2405.08892},
   year={2024}
 }
