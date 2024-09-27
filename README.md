@@ -33,7 +33,7 @@ conda env create -f environment.yml
 ```
 3. Change the environment
 ```
-conda activate dsacstar
+conda activate ceradv
 ```
 4. To be able to work with DSAC*, you have to install a custom C++ extension. To do so, you must run
 ```
