@@ -30,8 +30,16 @@ git clone https://github.com/arekavandi/Certified_adv_RRegression.git
 ```
 conda env create -f environment.yml
 ```
-
-
+3. Change the environment
+```
+conda activate dsacstar
+```
+4. To be able to work with DSAC*, you have to install a custom C++ extension. To do so, you must run
+```
+cd dsacstar
+python setup.py install
+```
+Now you are ready to perform the certification!
 ## Project Structure
 
 The repository is organized as follows:
