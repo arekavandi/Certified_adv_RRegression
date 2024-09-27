@@ -20,6 +20,17 @@ To run the Camera re-localization pipeline, all the packages suggested in  [DSAC
 scipy (1.11.4)
 matplotlib (3.8.2)
 ```
+The repository contains an ```environment.yml``` for the use with Conda. Perform the following steps:
+
+1. Clone the repository:
+```
+git clone https://github.com/arekavandi/Certified_adv_RRegression.git
+```
+2. Go to the project folder and Make a new environment and install the required packages by
+```
+conda env create -f environment.yml
+```
+
 
 ## Project Structure
 
