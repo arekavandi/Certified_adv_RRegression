@@ -28,7 +28,7 @@ git clone https://github.com/arekavandi/Certified_adv_RRegression.git
 ```
 2. Go to the project folder and make a new environment and install the required packages by
 ```
-Certified_adv_RRegression
+cd Certified_adv_RRegression
 conda env create -f environment.yml
 ```
 3. Change the environment
