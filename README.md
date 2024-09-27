@@ -10,10 +10,10 @@ We included all the files/models/datasets required to run the project and there 
 ## Installation
 Synthetic simulation requires the following Python libraries/packages:
 ```
-plotly (5.18.0)
-matplotlib (3.8.2)
-numpy (1.26.2)
-scipy (1.11.4)
+plotly
+matplotlib
+numpy
+scipy
 ```
 To run the Camera re-localization pipeline, all the packages suggested in  [DSAC*](https://github.com/vislearn/dsacstar) as well as the following packages repository should be installed:
 ```
