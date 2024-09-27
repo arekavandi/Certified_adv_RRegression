@@ -17,8 +17,8 @@ scipy (1.11.4)
 ```
 To run the Camera re-localization pipeline, all the packages suggested in  [DSAC*](https://github.com/vislearn/dsacstar) as well as the following packages repository should be installed:
 ```
-scipy (1.11.4)
-matplotlib (3.8.2)
+scipy (1.7.3)
+matplotlib (3.5.0)
 ```
 The repository contains an ```environment.yml``` for use with Conda. Perform the following steps:
 
