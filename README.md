@@ -39,6 +39,8 @@ conda activate dsacstar
 cd dsacstar
 python setup.py install
 ```
+Check [DSAC*](https://github.com/vislearn/dsacstar) repository if you get an error!
+
 Now you are ready to perform the certification!
 ## Project Structure
 
