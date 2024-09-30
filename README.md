@@ -1,5 +1,5 @@
 # Certified Adversarial Robustness via Randomized $\alpha$-Smoothing for Regression Models
-(Accepted in NeurIPS2024)
+## (Accepted in NeurIPS2024)
 ## Overview
 This GitHub repository was created to showcase the results of certifying regression models against adversarial attacks (Lp-Attacks) using randomized smoothing and the $\alpha$-trimming filter. Following the results/analyses in [RS-Reg](https://github.com/arekavandi/Certified_Robust_Regression), in this work, we demonstrate how to derive the maximum adversarial perturbation of input data for the base regression model, followed by presenting how a similar certificate can be obtained for the robust smoothing function, adapted from the robust statistics literature, i.e., $\alpha$-trimming filter. We also determine the minimum trimming rate necessary to improve the certification of the base model under the worst-case performance scenario.
 
