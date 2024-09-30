@@ -5,7 +5,6 @@ This GitHub repository was created to showcase the results of certifying regress
 
 This repository includes a Jupyter Notebook file for generating the figures presented in the paper for a synthetic function, along with a Python script for certifying the camera re-localization task using RGB images using the code and model provided in [DSAC*](https://github.com/vislearn/dsacstar) repository.
 
-We included all the files/models/datasets required to run the project and there is no need to download external files. 
 
 ## Installation
 Synthetic simulation requires the following Python libraries/packages:
