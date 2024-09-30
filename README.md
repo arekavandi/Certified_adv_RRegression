@@ -51,7 +51,7 @@ Now you are ready to run the certification!
 
 The repository is organized as follows:
 
-- **`notebooks/`:** Jupyter notebook for evaluating synthetic regression function.
+- **`notebooks/synthetic_new.ipynb`:** Jupyter notebook for evaluating synthetic regression function.
 - **`dsacstar/test_certificate.py`:** Python script for evaluating the robustness of camera re-localization model.
 - **`dsacstar/datasets/`:** Contains the dataset used for evaluation. Download it [here](https://paperswithcode.com/dataset/cambridge-landmarks).
 - **`dsacstar/newmodels/`:** Contains pre-trained models for the Cambridge landmarks dataset. Download them [here](https://heidata.uni-heidelberg.de/file.xhtml?persistentId=doi:10.11588/data/N07HKC/CBK0OL).
