@@ -83,7 +83,7 @@ We considered a mapping function $f:\mathbb{R}^2\rightarrow \mathbb{R}$ given by
 <img width="926" alt="image" src="https://github.com/user-attachments/assets/1e93214c-a16c-49d8-83d7-96bd1eab53f3">
 
 
-For real data and camera positionig task, the input bound of the adversary norm for Great Court scene has been demonstrated below for each taken images as a point in the 3D scene. Brighter points show more robust pose estimation of the images.
+For real-world data and the camera positioning task, the adversarial norm input bounds for the Great Court scene are illustrated below, with each captured image represented as a point in the 3D scene. Brighter points indicate more robust pose estimation for the images.
 
 <img width="612" alt="image" src="https://github.com/user-attachments/assets/b4f5541e-a622-477b-87fa-a1a17dc0736c">
 
