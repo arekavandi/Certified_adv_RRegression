@@ -3,7 +3,7 @@
 ## Overview
 This GitHub repository was created to showcase the results of certifying regression models against adversarial attacks (Lp-Attacks) using randomized smoothing and the $\alpha$-trimming filter. Following the results/analyses in [RS-Reg](https://github.com/arekavandi/Certified_Robust_Regression), in this work, we demonstrate how to derive the maximum adversarial perturbation of input data for the base regression model, followed by presenting how a similar certificate can be obtained for the robust smoothing function, adapted from the robust statistics literature, i.e., $\alpha$-trimming filter. We also determine the minimum trimming rate necessary to improve the certification of the base model under the worst-case performance scenario.
 
-This repository contains a Jupyter Notebook file for figures presented in the paper for a synthetic function as well as a Python script for the certification of camera re-localization task using RGB images using the code and model provided in [DSAC*](https://github.com/vislearn/dsacstar) repository.
+This repository includes a Jupyter Notebook file for generating the figures presented in the paper for a synthetic function, along with a Python script for certifying the camera re-localization task using RGB images using the code and model provided in [DSAC*](https://github.com/vislearn/dsacstar) repository.
 
 We included all the files/models/datasets required to run the project and there is no need to download external files. 
 
