@@ -42,7 +42,7 @@ python setup.py install
 ```
 Check [DSAC*](https://github.com/vislearn/dsacstar) repository if you get an error!
 
-5. Go back to the directory that your certification function is by
+5. Go back to the directory where your certification function exists.
 
 Now you are ready to run the certification!
 ## Project Structure
